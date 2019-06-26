@@ -1,12 +1,20 @@
 {
     "startup_app": {
-        "name": "OpenfinPOC",
-        "url": "http://localhost:5555/index.html",
-        "uuid": "OpenfinPOC",
-        "applicationIcon": "http://localhost:5555/favicon.ico",
+        "name": "Sandpit",
+        "url": "http://localhost:8000/index.html",
+        "uuid": "Sandpit_DEV",
+        "applicationIcon": "http://localhost:8000/favicon.ico",
         "autoShow": true,
+        "defaultWidth": 500,
+        "defaultHeight": 500,
+        "preloadScripts": [
+            {
+                "url": "http://localhost:8080/javascript.js"
+            }
+        ],
         "saveWindowState": true
     },
+    "licenseKey": "dd706067-a67e-45fe-bd7b-0cc01a2f621f",
     "runtime": {
         "arguments": "",
         "version": "stable"
@@ -14,7 +22,7 @@
     "shortcut": {
         "company": "OpenFin",
         "description": "Openfin POC",
-        "icon": "http://localhost:5555/favicon.ico",
+        "icon": "http://localhost:8000/favicon.ico",
         "name": "Openfin POC"
     }
 }
